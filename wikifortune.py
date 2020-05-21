@@ -1,7 +1,6 @@
 #!/usr/bin/python
 
 import requests
-from bs4 import BeautifulSoup
 
 request=requests.Session()
 
