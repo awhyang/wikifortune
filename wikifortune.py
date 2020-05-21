@@ -9,6 +9,7 @@ def get_article():
            'Talk:',
            'User:',
            'Template',
+           'Module:',
            'File:',
            'Category:',
            'Wikipedia:',
