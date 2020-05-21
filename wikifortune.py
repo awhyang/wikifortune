@@ -19,7 +19,9 @@ def get_article():
            'Draft:',
            'Wikipedia talk:',
            'Draft talk:',
+           'Module talk:',
            'Template talk:',
+           'Portal talk:',
            'Portal:']
     
     while True:
