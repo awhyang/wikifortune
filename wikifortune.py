@@ -15,7 +15,8 @@ def get_article():
            'Category talk:',
            'Map:',
            'File talk:',
-           'Draft:']
+           'Draft:',
+           'Portal:']
     
     while True:
         out=((request.get(url='https://en.wikipedia.org/w/api.php', 
