@@ -35,8 +35,7 @@ def get_article():
         for i in out:
             if not (any(k in i['title'] for k in pages)):
                 return(i['title'])
-            else:
-                continue
+        continue
             
 def get_fortune(article):
     return((request.get(url='https://en.wikipedia.org/w/api.php',
