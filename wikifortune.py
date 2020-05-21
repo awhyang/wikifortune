@@ -17,6 +17,9 @@ def get_article():
            'Map:',
            'File talk:',
            'Draft:',
+           'Wikipedia talk:',
+           'Draft talk:',
+           'Template talk:',
            'Portal:']
     
     while True:
