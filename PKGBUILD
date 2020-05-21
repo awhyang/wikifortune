@@ -11,11 +11,11 @@ makedepends=('coreutils' 'make')
 source=(https://github.com/awhyang/wikifortune)
 
 build() {
-  cd "${srcdir}/wikifortune"
+  cd "wikifortune-pkgver"
   make
 }
 
 package() {
-  cd "${srcdir}/wikifortune"
+  cd "wikifortune-$pkgver"
   make install DESTDIR="${pkgdir}"
 }
