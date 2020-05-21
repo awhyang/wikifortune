@@ -47,7 +47,6 @@ def get_fortune(article):
 
 def plaintext(html):
     
-    html_start=0
     replaced={'&quot;': '"',
             '&lt;': '<',
             '&gt;': '>',
