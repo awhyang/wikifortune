@@ -7,7 +7,7 @@ arch=('any')
 url="https://github.com/awhyang/wikifortune"
 license=('GPL')
 depends=('python')
-makedepends=('coreutils' 'make' 'texinfo')
+makedepends=('coreutils' 'make')
 source=(https://github.com/awhyang/wikifortune)
 
 build() {
