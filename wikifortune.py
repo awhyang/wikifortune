@@ -61,7 +61,7 @@ def plaintext(html):
         return(html)
 
 article_name=get_article()
-print(plaintext(get_fortune(article_name)+'\nMore: https://en.wikipedia.org/wiki/'+(article_name.replace(' ', '_'))))
+print(plaintext(get_fortune(article_name)+'....\nMore: https://en.wikipedia.org/wiki/'+(article_name.replace(' ', '_'))))
 
 
 
