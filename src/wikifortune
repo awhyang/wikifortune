@@ -29,7 +29,7 @@ def get_article():
                 params={'action':'query',
                         'format':'json',
                         'list':'random',
-                        'rnlimit':'10'
+                        'rnlimit':'50'
                         })).json())['query']['random']
         
         for i in out:
@@ -55,19 +55,17 @@ def plaintext(html):
             '&nbsp;': ' ',
             '&#??;': '??'}
        
-    while True:
+    while '>' in html:
         for letter in range(len(html)):
             if html[letter]=='<':
                 html_start=letter
             elif html[letter]=='>':
                 html=html[:html_start] + html[letter+1:]
                 break
-        if '>' in html:
-            continue
-        
-        for k, v in replaced.items():
-            html=html.replace(k, v)
-        return(html)
+                
+    for k, v in replaced.items():
+        html=html.replace(k, v)
+    return(html)
         
 article_name=get_article()
 print(plaintext(get_fortune(article_name)+'....\nMore: https://en.wikipedia.org/wiki/'+(article_name.replace(' ', '_'))))
