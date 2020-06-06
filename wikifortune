@@ -1,0 +1,108 @@
+#!/usr/bin/python
+
+import sys
+import requests
+request=requests.Session()
+
+class Lookup:
+
+    def __init__(self, args=None):
+        self.args = sys.argv[1:]
+
+    def valid(self):
+        if self.args:
+            for i in enumerate(self.args):
+
+                try:
+                    print(plaintext(get_fortune(i[1].replace(' ', '_')))+'....\nMore: https://en.wikipedia.org/wiki/'+i[1].replace(' ', '_'))
+
+                except IndexError:
+                    print('Could not find an article with title matching '+i[1]+'.')
+
+                except:
+                    print('Something went wrong.')
+
+                print('') if len(self.args) != (i[0]+1) else None
+
+        else:
+            article_name=get_article()
+            print(plaintext(get_fortune(article_name)+'....\nMore: https://en.wikipedia.org/wiki/'+(article_name.replace(' ', '_'))))
+
+
+
+
+def get_article():
+    pages=['User talk:',
+           'Talk:',
+           'User:',
+           'Template',
+           'File:',
+           'Category:',
+           'Wikipedia:',
+           'Category talk:',
+           'Map:',
+           'File talk:',
+           'Draft:',
+           'Portal:',
+           'Wikipedia talk:',
+           'Draft talk:',
+           'Module talk:',
+           'Template talk:',
+           'Portal talk:',
+           'Module:']
+
+
+    while True:
+        out=((request.get(url='https://en.wikipedia.org/w/api.php',
+                params={'action':'query',
+                        'format':'json',
+                        'list':'random',
+                        'rnlimit':'50'
+                        })).json())['query']['random']
+
+            #requests a list of 50 random wikipedia pages
+
+        for i in out:
+            if not (any(k in i['title'] for k in pages)):
+                return(i['title'])
+        continue
+
+            #filters pages[i] and returns first proper article
+
+def get_fortune(article):
+    return((request.get(url='https://en.wikipedia.org/w/api.php',
+                      params={'action':'query',
+                              'format':'json',
+                              'list':'search',
+                              'srsearch':article})).json()['query']['search'][0]['snippet'])
+
+def plaintext(html):
+
+    replaced={'"': '"',
+            '<': '<',
+            '>': '>',
+            '&': '&',
+            '©': '©',
+            '™':'™',
+            ' ': ' ',
+            '&#??;': '??'}
+
+   #removes html
+
+    while '>' in html:
+        for letter in range(len(html)):
+            if html[letter]=='<':
+                html_start=letter
+            elif html[letter]=='>':
+                html=html[:html_start] + html[letter+1:]
+                break
+
+    for k, v in replaced.items():
+        html=html.replace(k, v)
+    return(html)
+
+
+
+search=Lookup(sys.argv)
+
+search.valid()
