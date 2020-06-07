@@ -1,22 +1,33 @@
 # wikifortune
 
+
 Note: may not work with some terminals/computers that do not accept unicode.
+
+
 
 Fix: remove 
       '&\amp;': '&',
       '&\copy;': '©',
       '&\trade;':'™',
+      
   from script.
   
+  
+  
 May return error on articles containing these characters. 
+
 
 Fix: add
     .encode('ascii', 'ignore')
     to output stream and each return value
   
+  
+  
 
 
 Usage:
+
+
 
 $ wikifortune
 
@@ -25,6 +36,8 @@ $ wikifortune
 More: {link to article}
 
 $
+
+
 
 example:
 
