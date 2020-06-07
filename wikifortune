@@ -34,9 +34,6 @@ class Lookup:
             article_name=get_article()
             print(plaintext(get_fortune(article_name)+'....\nMore: https://en.wikipedia.org/wiki/'+(article_name.replace(' ', '_'))))
 
-
-
-
 def get_article():
     pages=['User talk:',
            'Talk:',
@@ -110,5 +107,20 @@ def plaintext(html):
 
 
 search=Lookup(sys.argv)
-
 search.valid()
+
+"""___________________
+|    Gahnoo GPLv3     |
+|                     |
+|'If you see this     |
+|        'you are gay |
+|                     |
+|___________________"""
+
+
+
+
+
+
+
+
