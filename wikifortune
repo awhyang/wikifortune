@@ -12,7 +12,13 @@ class Lookup:
     def valid(self):
         if self.args:
             for i in enumerate(self.args):
-
+                
+                if i[1]=='_r_':
+                    article_name=get_article()
+                    print(plaintext(get_fortune(article_name)+'....\nMore: https://en.wikipedia.org/wiki/'+(article_name.replace(' ', '_'))))
+                    print('') if len(self.args) != (i[0]+1) else None
+                    continue
+                    
                 try:
                     print(plaintext(get_fortune(i[1].replace(' ', '_')))+'....\nMore: https://en.wikipedia.org/wiki/'+i[1].replace(' ', '_'))
 
