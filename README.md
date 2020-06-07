@@ -22,6 +22,7 @@ $ wikifortune
 
 {random wikipedia article ['query']['search'][0]['snippet']}
 More: {link to article}
+$
 
 $ wikifortune test deer articledoesnotexist "lambda calculus"
 
@@ -35,4 +36,5 @@ Could not find an article with title matching articledoesnotexist.
 
 Lambda calculus (also written as λ-calculus) is a formal system in mathematical logic for expressing computation based on function abstraction and application....
 More: https://en.wikipedia.org/wiki/lambda_calculus
+$
 
