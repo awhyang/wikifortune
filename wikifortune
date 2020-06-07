@@ -1,5 +1,18 @@
 #!/usr/bin/python
 
+    """___________________
+    |      GNU GPLv3      |
+    |    (Gahnoo)         |            
+    |                     |
+    |'If you see this     |
+    |  you are double gay'|
+<github.com/awhyang/wikifortune>
+    |                     |
+    |___________________"""
+
+
+
+
 import sys
 import requests
 request=requests.Session()
@@ -109,15 +122,7 @@ def plaintext(html):
 search=Lookup(sys.argv)
 search.valid()
 
-    """___________________
-    |      GNU GPLv3      |
-    |    (Gahnoo)         |            
-    |                     |
-    |'If you see this     |
-    |        you are gay' |
-<github.com/awhyang/wikifortune>
-    |                     |
-    |___________________"""
+
 
 
 
