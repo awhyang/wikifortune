@@ -1,6 +1,7 @@
 # wikifortune
 
 Note: may not work with some terminals/computers that do not accept unicode.
+
 Fix: remove 
       '&\amp;': '&',
       '&\copy;': '©',
@@ -8,6 +9,7 @@ Fix: remove
   from script.
   
 May return error on articles containing these characters. 
+
 Fix: add
     .encode('ascii', 'ignore')
     to output stream and each return value
@@ -15,6 +17,7 @@ Fix: add
 
 
 Usage:
+
 $ wikifortune
 {random wikipedia article ['query']['search'][0]['snippet']}
 More: {link to article}
