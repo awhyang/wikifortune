@@ -13,7 +13,7 @@ Fix: remove
       
       '&\trade;':'™',
       
-      <br/>
+<br/>
   from script.
   
  <br/> 
