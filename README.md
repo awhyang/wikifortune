@@ -1,32 +1,32 @@
 # wikifortune
 
-
+<br/>
 Note: may not work with some terminals/computers that do not accept unicode.
 
-
+<br/>
 
 Fix: remove 
       '&\amp;': '&',
       '&\copy;': '©',
       '&\trade;':'™',
-      
+      <br/>
   from script.
   
-  
+ <br/> 
   
 May return error on articles containing these characters. 
-
+<br/>
 
 Fix: add
     .encode('ascii', 'ignore')
     to output stream and each return value
   
-  
-  
-
+  <br/>
+  <br/>
+<br/>
 
 Usage:
-
+<br/>
 
 
 $ wikifortune
@@ -36,19 +36,19 @@ $ wikifortune
 More: {link to article}
 
 $
-
-
+<br/>
+<br/>
 
 example:
-
+<br/>
 $ wikifortune
 
 Yarnkothrips is a genus of thrips in the family Phlaeothripidae. Yarnkothrips kolourus Roskov Y., Ower G., Orrell T., Nicolson D., Bailly N., Kirk P.M....
 
 More: https://en.wikipedia.org/wiki/Yarnkothrips
+<br/>
 
-
-
+<br/>
 
 $ wikifortune test deer articledoesnotexist "lambda calculus"
 
