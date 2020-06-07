@@ -1,5 +1,32 @@
 # wikifortune
 
+
+
+    """___________________
+
+    |      GNU GPLv3      |
+
+    |    (Gahnoo)         |            
+
+    |                     |
+
+    |'If you see this     |
+
+    |        you are gay' |
+
+<github.com/awhyang/wikifortune>
+
+    |                     |
+
+    |___________________"""
+
+
+
+
+
+
+
+
 <br/>
 Note: may not work with some terminals/computers that do not accept unicode.
 
