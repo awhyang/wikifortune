@@ -19,10 +19,12 @@ Fix: add
 Usage:
 
 $ wikifortune
+
 {random wikipedia article ['query']['search'][0]['snippet']}
 More: {link to article}
 
 $ wikifortune test deer articledoesnotexist "lambda calculus"
+
 Test(s) or TEST may refer to: Test (assessment), an assessment intended to measure the respondents' knowledge or other abilities Test (group), a jazz....
 More: https://en.wikipedia.org/wiki/test
 
