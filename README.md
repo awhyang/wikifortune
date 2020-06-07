@@ -21,11 +21,18 @@ Usage:
 $ wikifortune
 
 {random wikipedia article ['query']['search'][0]['snippet']}
+
 More: {link to article}
 
 $
 
+example:
 
+$ wikifortune
+
+Yarnkothrips is a genus of thrips in the family Phlaeothripidae. Yarnkothrips kolourus Roskov Y., Ower G., Orrell T., Nicolson D., Bailly N., Kirk P.M....
+
+More: https://en.wikipedia.org/wiki/Yarnkothrips
 
 
 
@@ -44,4 +51,3 @@ Lambda calculus (also written as λ-calculus) is a formal system in mathematical
 More: https://en.wikipedia.org/wiki/lambda_calculus
 
 $
-
