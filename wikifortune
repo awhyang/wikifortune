@@ -110,7 +110,8 @@ search=Lookup(sys.argv)
 search.valid()
 
 """___________________
-|    Gahnoo GPLv3     |
+|      GNU GPLv3      |
+|    (Gahnoo)         |            
 |                     |
 |'If you see this     |
 |        you are gay' |
