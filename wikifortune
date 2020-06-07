@@ -109,15 +109,15 @@ def plaintext(html):
 search=Lookup(sys.argv)
 search.valid()
 
-"""___________________
-|      GNU GPLv3      |
-|    (Gahnoo)         |            
-|                     |
-|'If you see this     |
-|        you are gay' |
-|     (no homo)       |
-|                     |
-|___________________"""
+    """___________________
+    |      GNU GPLv3      |
+    |    (Gahnoo)         |            
+    |                     |
+    |'If you see this     |
+    |        you are gay' |
+<github.com/awhyang/wikifortune>
+    |                     |
+    |___________________"""
 
 
 
