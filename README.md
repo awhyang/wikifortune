@@ -25,7 +25,7 @@ Fix: add
 
     .encode('ascii', 'ignore')
     
-    to output stream and each return value
+to output stream and each return value
   
   <br/>
   <br/>
