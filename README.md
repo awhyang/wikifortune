@@ -86,7 +86,8 @@ example:
 <br/>
 <br/>
 
-      wikifortune corydoras _r_ lambda_calculusarea of distribution of the family, except for Panama where Corydoras is not present. Corydoras species are distributed in South America where found east....
+      wikifortune corydoras _r_ lambda_calculus
+      area of distribution of the family, except for Panama where Corydoras is not present. Corydoras species are distributed in South America where found east....
       More: https://en.wikipedia.org/wiki/corydoras
 
       Kriška Vas (pronounced [ˈkɾiːʃka ˈʋaːs]; Slovene: Kriška vas, in older sources also Križna Vas, German: Kreuzdorf) is a village south of Višnja Gora in....
