@@ -2,17 +2,17 @@
 
 
 
-    ______________________
-    |      GNU GPLv3      |
-    |    (Gahnoo)         |            
-    |                     
-    |'If you see this     |
-    |        you are gay' |
+        ______________________
+        |      GNU GPLv3      |
+        |    (Gahnoo)         |            
+        |                     
+        |'If you see this     |
+        |        you are gay' |
 
     <github.com/awhyang/wikifortune>
 
-    |                     |
-    |_____________________|
+        |                     |
+        |_____________________|
 
 
 
