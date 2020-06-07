@@ -70,7 +70,7 @@ example 2:
       $
 <br/>
 <br/>
-To get a random article inside a request for aticles:
+To get a random article inside a request for articles:
 <br/><br/>
 use:
 
