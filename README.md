@@ -31,7 +31,7 @@ to output stream and each return value
 <br/>
 <br/>
 
-Usage:
+Usage if run with no arguments:
 <br/>
 
 
@@ -42,9 +42,6 @@ Usage:
 <br/>
 <br/>
 
-example:
-<br/>
-
       $ wikifortune
       Yarnkothrips is a genus of thrips in the family Phlaeothripidae. Yarnkothrips kolourus Roskov Y., Ower G., Orrell T., Nicolson D., Bailly N., Kirk P.M....
       More: https://en.wikipedia.org/wiki/Yarnkothrips
@@ -52,7 +49,7 @@ example:
 <br/>
 <br/>
 <br/>
-example 2:
+Usage when run with arguments:
 <br/>
 <br/>
 
@@ -78,8 +75,6 @@ use:
       
        where _r_ requests random article
 <br/><br/>
-example:
-<br/>
 <br/>
 
       wikifortune corydoras _r_ lambda_calculus
