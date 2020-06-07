@@ -35,13 +35,12 @@ Usage:
 <br/>
 
 
-$ wikifortune
+      $ wikifortune
 
-{random wikipedia article ['query']['search'][0]['snippet']}
+      {random wikipedia article ['query']['search'][0]['snippet']}
+      More: {link to article}
 
-More: {link to article}
-
-$
+      $
 <br/>
 <br/>
 
