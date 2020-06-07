@@ -36,10 +36,8 @@ Usage:
 
 
       $ wikifortune
-
       {random wikipedia article ['query']['search'][0]['snippet']}
       More: {link to article}
-
       $
 <br/>
 <br/>
@@ -48,7 +46,6 @@ example:
 <br/>
 
       $ wikifortune
-
       Yarnkothrips is a genus of thrips in the family Phlaeothripidae. Yarnkothrips kolourus Roskov Y., Ower G., Orrell T., Nicolson D., Bailly N., Kirk P.M....
       More: https://en.wikipedia.org/wiki/Yarnkothrips
       $
@@ -60,7 +57,6 @@ example 2:
 <br/>
 
       $ wikifortune test deer articledoesnotexist "lambda calculus"
-
       Test(s) or TEST may refer to: Test (assessment), an assessment intended to measure the respondents' knowledge or other abilities Test (group), a jazz....
       More: https://en.wikipedia.org/wiki/test
 
@@ -80,7 +76,7 @@ use:
 
       wikifortune foo foo _r_ foo
       
-      //_r_ requests random article
+       where _r_ requests random article
 <br/><br/>
 example:
 <br/>
