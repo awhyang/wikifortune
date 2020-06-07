@@ -51,6 +51,7 @@ example:
 
       Yarnkothrips is a genus of thrips in the family Phlaeothripidae. Yarnkothrips kolourus Roskov Y., Ower G., Orrell T., Nicolson D., Bailly N., Kirk P.M....
       More: https://en.wikipedia.org/wiki/Yarnkothrips
+      $
 <br/>
 <br/>
 <br/>
@@ -70,7 +71,6 @@ example 2:
 
       Lambda calculus (also written as λ-calculus) is a formal system in mathematical logic for expressing computation based on function abstraction and application....
       More: https://en.wikipedia.org/wiki/lambda_calculus
-
       $
 <br/>
 <br/>
@@ -88,7 +88,6 @@ example:
 
       wikifortune corydoras _r_ lambda_calculusarea of distribution of the family, except for Panama where Corydoras is not present. Corydoras species are distributed in South America where found east....
       More: https://en.wikipedia.org/wiki/corydoras
-
 
       Kriška Vas (pronounced [ˈkɾiːʃka ˈʋaːs]; Slovene: Kriška vas, in older sources also Križna Vas, German: Kreuzdorf) is a village south of Višnja Gora in....
       More: https://en.wikipedia.org/wiki/Kriška_Vas
