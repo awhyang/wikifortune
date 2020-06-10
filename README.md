@@ -2,12 +2,10 @@
 
 
 
-        ______________________
-        |      GNU GPLv3      |
-        |    (Gahnoo)         |            
-        |                     
-        |'If you see this     |
-        |        you are gay' |
+        ______________________           
+        |                     |          
+        | If you see this     |
+        |        you are gay  |
 
     <github.com/awhyang/wikifortune>
 
@@ -92,13 +90,13 @@ To get a random article inside a request for articles:
 <br/><br/>
 use:
 
-      wikifortune foo foo _r_ foo
+      wikifortune foo foo -r foo
       
-       where _r_ requests random article
+       where -r requests random article
 <br/><br/>
 <br/>
 
-      wikifortune corydoras _r_ lambda_calculus
+      wikifortune corydoras -r lambda_calculus
       area of distribution of the family, except for Panama where Corydoras is not present. Corydoras species are distributed in South America where found east....
       More: https://en.wikipedia.org/wiki/corydoras
 
