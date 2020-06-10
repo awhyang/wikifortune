@@ -1,8 +1,6 @@
 #!/usr/bin/python
 
-    """___________________
-    |      GNU GPLv3      |
-    |    (Gahnoo)         |            
+"""  _____________________
     |                     |
     |'If you see this     |
     |  you are double gay'|
@@ -26,7 +24,7 @@ class Lookup:
         if self.args:
             for i in enumerate(self.args):
                 
-                if i[1]=='_r_':
+                if i[1]=='-r':
                     article_name=get_article()
                     print(plaintext(get_fortune(article_name)+'....\nMore: https://en.wikipedia.org/wiki/'+(article_name.replace(' ', '_'))))
                     print('') if len(self.args) != (i[0]+1) else None
